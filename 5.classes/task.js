@@ -77,7 +77,7 @@ class Library extends PrintEditionItem {
     }
 
     addBook(book) {
-        if (this.state > 30) {
+        if (book.state > 30) {
             this.books.push(book)
         }
     }
